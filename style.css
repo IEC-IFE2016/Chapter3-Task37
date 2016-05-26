@@ -1,0 +1,21 @@
+img{
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin: 20px 0 20px 0;
+  position: relative;
+  left: 50%;
+  object-fit: cover;// IE8+保持图片缩放比
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border: rgba(0,0,0,0);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0,0,0,0);
+  -moz-box-shadow: rgba(0,0,0,0);
+  box-shadow: rgba(0,0,0,0);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
